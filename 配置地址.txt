@@ -1,0 +1,10 @@
+lhz 在线配置地址 (影视仓3 / OK 影视 2.5 换这个)
+
+直连代理 (推荐)：https://v4.gh-proxy.org/https://raw.githubusercontent.com/jakebing-ux/lhz/main/lhz.json
+
+CDN：https://cdn.jsdelivr.net/gh/jakebing-ux/lhz@v1/lhz.json
+
+说明：
+- 两个地址都已验证可访问（HTTP 200）
+- 播放器填"直连代理"那个即可；如盒子访问不了 v4.gh-proxy.org，用 CDN 那个
+- 验证方法：电脑浏览器打开地址，能看到 JSON 内容就是对的
