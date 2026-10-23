@@ -34,10 +34,11 @@ lhz 本地包（影视仓3 / OK影视2.5 / 安卓4）
  3. 首页源建议选「龙门影视」或「官源 | 腾讯」
  4. 本地文件模式如个别 JS 源不加载，改用在线配置地址
 
-= 在线配置地址（v1） =
- 代理直连：https://v4.gh-proxy.org/https://raw.githubusercontent.com/jakebing-ux/lhz/main/lhz.json
- jsDelivr：https://cdn.jsdelivr.net/gh/jakebing-ux/lhz@v1/lhz.json
-（jar 走 v4.gh-proxy.org 代理；lib/json/js 走 jsDelivr）
+= 在线配置地址 (影视仓3 / OK 影视 2.5 换这个) =
+ 直连代理 (推荐)：https://v4.gh-proxy.org/https://raw.githubusercontent.com/jakebing-ux/lhz/main/lhz.json
+ CDN：https://cdn.jsdelivr.net/gh/jakebing-ux/lhz@v1/lhz.json
+（已推送 GitHub + 打 tag v1，jsDelivr 验证 200；本地 lhz.zip 已打包。
+ jar 走 v4 代理分发；lib/json/js 走 jsDelivr。请用上面的地址在盒子上重测。）
 
 = 说明 =
  - 官源规则想自换：替换 lib/官源同名文件（var rule = {...}）
